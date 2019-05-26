@@ -8,12 +8,10 @@
                     <div class="collapse navbar-collapse" id="navbarResponsive">
                         <ul class="navbar-nav ml-auto">
                             <li class="nav-item active">
-                                <a class="nav-link" href="#">Home
-                                           <span class="sr-only">(current)</span>
-                                </a>
+                            <router-link to="/" class="nav-link">Home</router-link>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Trainings</a>
+                            <router-link to="/about" class="nav-link">Trainings</router-link>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Courses</a>
@@ -33,3 +31,14 @@ import { Component, Prop, Vue } from 'vue-property-decorator';
 export default class TopPanel extends Vue {
 }
 </script>
+
+<style lang="scss" scoped>
+.navbar
+{
+    width: 100%;
+    background-color:#fafafa;
+    color: #fff;
+    z-index: 100;
+    box-shadow: 0px 3px 10px #004d40;
+}
+</style>
