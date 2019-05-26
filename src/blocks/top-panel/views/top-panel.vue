@@ -38,6 +38,7 @@ export default class TopPanel extends Vue {
  background-color: rebeccapurple;
  color: #fff;
  padding: 15px;
+ box-shadow: 0px 3px 10px #004d40;
 }
 .navbar
 {

@@ -21,11 +21,16 @@
 }
 .scroll-style-0::-webkit-scrollbar-track
 {
-	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  box-shadow: 0px 3px 10px #004d40;
 	border-radius: 10px;
 }
 
 .scroll-style-0::-webkit-scrollbar
+{
+	width: 5px;
+}
+.scroll-style-0::scro
 {
 	width: 5px;
 }
@@ -34,7 +39,15 @@
 {
 	border-radius: 10px;
 	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
-	background-color:rebeccapurple;;
+  background-color:rebeccapurple;
+  box-shadow: 0px 3px 10px #004d40;
+}
+.scroll-style-0::-webkit-scrollbar-thumb:hover
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+  background-color:#004d40;
+  box-shadow: 0px 3px 10px #004d40;
 }
 </style>
 <script lang="ts">
