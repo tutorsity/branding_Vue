@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <div id="nav">
+      <TopPanel></TopPanel>
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
     </div>
@@ -27,3 +28,18 @@
   }
 }
 </style>
+<script lang="ts">
+import { Component, Prop, Vue } from 'vue-property-decorator';
+import 'bootstrap';
+import 'bootstrap/scss/bootstrap.scss';
+import TopPanel from './blocks/top-panel/views/top-panel.vue';
+
+@Component({
+  components: {
+    TopPanel,
+  },
+})
+export default class App extends Vue {
+}
+</script>
+
