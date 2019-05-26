@@ -8,7 +8,7 @@ export default class FooterPanel extends Vue {
 <style lang="scss" scoped>
 .page-footer
 {
-    background-color: #004d40 !important;
+    background-color: #8c9eff !important;
     color: #ffffff !important;
 }
 </style>
@@ -86,8 +86,8 @@ export default class FooterPanel extends Vue {
                         </div>
                     </div>
                 </div>
-                <div class="footer-copyright text-center py-3">Copyright © 2019.
-                 <a>easylearning.com</a> 
+                <div class="footer-copyright text-center py-3">Copyright © 2019
+                 <!-- <a>tutorsity.com</a>  -->
                 </div>
             </footer>
 </template>

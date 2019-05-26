@@ -1,5 +1,5 @@
 <template>
-  <div class="app-container">
+  <div class="app-container scroll-style-0">
     <div id="nav">
       <TopPanel></TopPanel>
     </div>
@@ -18,6 +18,23 @@
     height: 100vh;
     width: 100%;
     overflow-y: auto;
+}
+.scroll-style-0::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+}
+
+.scroll-style-0::-webkit-scrollbar
+{
+	width: 5px;
+}
+
+.scroll-style-0::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color:#5870cb;
 }
 </style>
 <script lang="ts">
