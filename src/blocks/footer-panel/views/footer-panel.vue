@@ -8,7 +8,7 @@ export default class FooterPanel extends Vue {
 <style lang="scss" scoped>
 .page-footer
 {
-    background-color: #8c9eff !important;
+    background-color: #5870cb !important;
     color: #ffffff !important;
 }
 </style>
