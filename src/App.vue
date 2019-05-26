@@ -6,6 +6,9 @@
     <div>
     <router-view/>
     </div>
+    <div id="nav">
+      <FooterPanel></FooterPanel>
+    </div>
   </div>
 </template>
 
@@ -22,10 +25,12 @@ import { Component, Prop, Vue } from 'vue-property-decorator';
 import 'bootstrap';
 import 'bootstrap/scss/bootstrap.scss';
 import TopPanel from './blocks/top-panel/views/top-panel.vue';
+import FooterPanel from './blocks/footer-panel/views/footer-panel.vue';
 
 @Component({
   components: {
     TopPanel,
+    FooterPanel,
   },
 })
 export default class App extends Vue {
