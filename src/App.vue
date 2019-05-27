@@ -1,12 +1,12 @@
 <template>
   <div class="app-container scroll-style-0">
-    <div id="nav">
+    <div>
       <TopPanel></TopPanel>
     </div>
     <div>
     <router-view/>
     </div>
-    <div id="nav">
+    <div>
       <FooterPanel></FooterPanel>
     </div>
   </div>

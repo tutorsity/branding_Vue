@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="home-container text-center">
                 <header>
                     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                         <ol class="carousel-indicators">
@@ -58,6 +58,11 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+  }
+  .home-container
+  {
+      background-color:#8c9eff;
+      color: white;
   }
 </style>
 

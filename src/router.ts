@@ -2,6 +2,8 @@ import Vue from 'vue';
 import Router from 'vue-router';
 import Home from './business-components/home/views/home.vue';
 import Training from './business-components/training/views/training.vue';
+import Course from './business-components/course/views/course.vue';
+import Career from './business-components/career/views/career.vue';
 
 Vue.use(Router);
 
@@ -19,13 +21,23 @@ export default new Router({
       name: 'training',
       component: Training,
     },
+    {
+      path: '/course',
+      name: 'course',
+      component: Course,
+    },
+    {
+      path: '/career',
+      name: 'career',
+      component: Career,
+    },
     // {
     //   path: '/training',
     //   name: 'training',
     //   // route level code-splitting
     //   // this generates a separate chunk (about.[hash].js) for this route
     //   // which is lazy-loaded when the route is visited.
-    //   component: () => import(/* webpackChunkName: "about" */ './views/training.vue'),
+    //   component: () => import(/* webpackChunkName: "training" */ './business-components/training/views/training.vue')
     // },
   ],
 });

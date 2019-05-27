@@ -14,10 +14,10 @@
                             <router-link to="/training" class="nav-link">Trainings</router-link>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Courses</a>
+                                <router-link to="/course" class="nav-link">Courses</router-link>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Careers</a>
+                               <router-link to="/career" class="nav-link">Careers</router-link>
                             </li>
                         </ul>
                     </div>
