@@ -41,6 +41,7 @@ export default class FooterPanel extends Vue {
 
                         <div class="col-md-2 mb-3">
                             <h6 class="text-uppercase font-weight-bold">
+                                <i class="glyphicon glyphicon-phone-alt"> </i>
                                 <a>Contact</a>
                             </h6>
                         </div>
@@ -48,11 +49,7 @@ export default class FooterPanel extends Vue {
 
                     <div class="row d-flex text-center justify-content-center mb-md-0 mb-4">
                         <div class="col-md-8 col-12 mt-5">
-                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                              accusantium doloremque laudantium, totam rem
-                              aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
-                              explicabo.
-                      Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur.</p>
+                            <p>With our trainings, skill assessments and one-of-a-kind analytics, you can align your organization around digital initiatives, upskill people into modern tech roles and build adaptable teams that deliver faster</p>
                         </div>
                     </div>
 
@@ -79,15 +76,15 @@ export default class FooterPanel extends Vue {
                                     <i class="fab fa-instagram fa-lg white-text mr-4"> </i>
                                 </a>
 
-                                <a class="pin-ic">
-                                    <i class="fab fa-pinterest fa-lg white-text"> </i>
+                                <a class="">
+                                    <i class="glyphicon glyphicon-phone-alt"> </i>
                                 </a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="footer-copyright text-center py-3">Copyright © 2019
-                 <!-- <a>tutorsity.com</a>  -->
+                <div class="footer-copyright text-center py-3">Copyright © 2019 &nbsp;|&nbsp;
+                 <a>tutorsity.com</a> 
                 </div>
             </footer>
 </template>

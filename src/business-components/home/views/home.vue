@@ -42,8 +42,8 @@
                 </header>
                 <section class="py-5">
                     <div class="container-fluid">
-                        <h1 class="display-4">Full Page Image Slider</h1>
-                        <p class="lead">The background images for the slider are set directly in the HTML using inline CSS. The images in this snippet are from <a href="https://unsplash.com">Unsplash</a>, taken by <a href="https://unsplash.com/@joannakosinska">Joanna Kosinska</a>!</p>
+                        <h1 class="display-4">RIGHT PLACE, RIGHT CHOICE</h1>
+                        <p class="lead">With our platform, you can quantify your skills, grow in your role and stay relevant on critical topics</p>
                     </div>
                 </section>
             </div>

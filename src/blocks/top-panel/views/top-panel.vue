@@ -11,7 +11,7 @@
                             <router-link to="/" class="nav-link">Home</router-link>
                             </li>
                             <li class="nav-item">
-                            <router-link to="/about" class="nav-link">Trainings</router-link>
+                            <router-link to="/training" class="nav-link">Trainings</router-link>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Courses</a>
