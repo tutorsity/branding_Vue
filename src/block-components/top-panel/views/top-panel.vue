@@ -10,14 +10,17 @@
                             <li class="nav-item active">
                             <router-link to="/" class="nav-link">Home</router-link>
                             </li>
-                            <li class="nav-item">
-                            <router-link to="/" class="nav-link">About</router-link>
-                            </li>
                             <!-- <li class="nav-item">
                             <router-link to="/training" class="nav-link">Trainings</router-link>
                             </li> -->
                             <li class="nav-item">
                                 <router-link to="/course" class="nav-link">Courses</router-link>
+                            </li>
+                                                        <li class="nav-item">
+                            <router-link to="/about" class="nav-link">About</router-link>
+                            </li>
+                                                        <li class="nav-item">
+                            <router-link to="/contact" class="nav-link">Contact</router-link>
                             </li>
                             <!-- <li class="nav-item">
                                <router-link to="/career" class="nav-link">Careers</router-link>

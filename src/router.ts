@@ -4,6 +4,8 @@ import Home from './business-components/home/views/home.vue';
 import Training from './business-components/training/views/training.vue';
 import Course from './business-components/course/views/course.vue';
 import Career from './business-components/career/views/career.vue';
+import About from './business-components/about/views/about.vue';
+import Contact from './business-components/contact/views/contact.vue';
 
 Vue.use(Router);
 
@@ -30,6 +32,16 @@ export default new Router({
       path: '/career',
       name: 'career',
       component: Career,
+    },
+    {
+      path: '/contact',
+      name: 'contact',
+      component: Contact,
+    },
+    {
+    path: '/about',
+    name: 'about',
+    component: About,
     },
     // {
     //   path: '/training',
