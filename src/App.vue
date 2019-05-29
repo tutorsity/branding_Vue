@@ -54,8 +54,8 @@
 import { Component, Prop, Vue } from 'vue-property-decorator';
 import 'bootstrap';
 import 'bootstrap/scss/bootstrap.scss';
-import TopPanel from './blocks/top-panel/views/top-panel.vue';
-import FooterPanel from './blocks/footer-panel/views/footer-panel.vue';
+import TopPanel from './block-components/top-panel/views/top-panel.vue';
+import FooterPanel from './block-components/footer-panel/views/footer-panel.vue';
 
 @Component({
   components: {

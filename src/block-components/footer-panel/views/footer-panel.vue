@@ -1,16 +1,9 @@
 <script lang="ts">
-import { Component, Prop, Vue } from 'vue-property-decorator';
-
-@Component
-export default class FooterPanel extends Vue {
-}
+import FooterPanel from '../controllers/footer-panel';
+export default FooterPanel;
 </script>
 <style lang="scss" scoped>
-.page-footer
-{
-    background-color: #5870cb !important;
-    color: #ffffff !important;
-}
+@import '../styles/footer-panel.scss';
 </style>
 
 <template>
